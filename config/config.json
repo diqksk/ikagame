@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "ikagame",
+    "password": "ssacCentos1!",
+    "database": "ikagame",
+    "host": "49.50.160.191",
+    "port": "3306",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "ikagame",
+    "password": "ssacCentos1!",
+    "database": "ikagame",
+    "host": "49.50.160.191",
+    "port": "3306",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ikagame",
+    "password": "ssacCentos1!",
+    "database": "ikagame",
+    "host": "49.50.160.191",
+    "port": "3306",
+    "dialect": "mysql"
+  }
+}
