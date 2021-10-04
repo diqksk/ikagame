@@ -21,7 +21,10 @@ router.get("/", async (req, res) => {
     attributes: [
       [Sequelize.fn("COUNT", Sequelize.col("*")), "total"],
       [
-        Sequelize.fn("COUNT", Sequelize.literal("regdate > curdate()")),
+        Sequelize.fn(
+          "COUNT",
+          Sequelize.literal("case when regdate > curdate() then 1 end")
+        ),
         "today",
       ],
     ],
